@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoView</title>
+    <link rel="stylesheet" href="/assets/CSS/common.css"/>
+    <link rel="stylesheet" href="/assets/CSS/detail.css"/>
+</head>
+<body>
+     <!--This is for navigation bar-->
+     <nav>
+        <img src="/assets/images/logo.png (2).jpg" alt="logo" class="logo-img"/>
+        <h1 class="d-inline title ml-1 mr-1 mb-1 mt-1">CryptoView</h1>
+        <button class="f-right nav-button" id="nav-search-button">Search</button>
+    </nav>
+
+    <section class="flex-container">
+        <img src="/assets/images/logo.png (2).jpg"  id="coin-logo" alt="coin logo" class="main-img"/>
+        <div class="main-contents">
+            <h1 class="mb-1 color-blue" id="coin-name">...</h1>
+
+            <div class="flex-container spacing space-around mb-1 mt-1">
+                <p>₹<span id="inr-price">...</span></p>
+                <p> $<span id="usd-price">...</span></p>
+                <p> €<span id="eur-price">...</span></p>
+            </div>
+
+            <h3 class="mt-1">Description:</h3>
+            <p id="coin-description">...</p>
+        </div>
+    </section>
+
+
+    <section class="ml-5 mr-5 ">
+        <h1 class="color-blue">Price History</h1>
+        <div>
+            <canvas id="myChart" width="100" height="30"></canvas>
+        </div>
+    </section>
+
+
+
+
+
+    <!--This is for footer-->
+    <footer>
+        <p class="d-inline">&copy; CryptoView | Developed by Kirti and Team..</p>
+        <a href="https://www.github.com/" target="_blank">
+            <img src="/assets/images/Github-logo.jpg" alt="Github Logo" class="footer-image">
+        </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.min.js"></script>-->
+    <script src="/assets/js/common.js"></script>
+    <script src="/assets/js/detail.js"></script>
+</body>
+</html>

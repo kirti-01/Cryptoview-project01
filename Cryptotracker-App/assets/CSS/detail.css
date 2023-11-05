@@ -1,0 +1,18 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: start;
+}
+.main-img{
+    width:25%;
+    padding: 5rem;
+}
+.main-contents{
+    padding-top: 3rem;
+    width: calc(75%-5rem);
+    padding-right: 5rem;
+}
+.spacing{
+    justify-content: space-evenly;
+}
